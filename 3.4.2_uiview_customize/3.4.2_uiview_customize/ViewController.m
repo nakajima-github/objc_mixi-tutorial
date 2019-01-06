@@ -24,6 +24,17 @@
     MixiCustomView *customView = [[MixiCustomView alloc] initWithFrame:frame];
     [self.view addSubview:customView];
     
+    // アニメーションメソッドを追加
+    [UIView animateWithDuration:5.0f // アニメーションの時間を設定
+                     animations:^{      // アニメーションさせたい処理群
+        CGRect movedFrame ={{0, 250}, {250,250}};
+        [customView setFrame:movedFrame];
+    }
+                     completion:^(BOOL finished) {  // アニメーション完了時の処理
+        [customView removeFromSuperview];
+    }];
+    
+    
 }
 
 
