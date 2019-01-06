@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19DEC08C21DFC89E00996233 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DEC08B21DFC89E00996233 /* AppDelegate.m */; };
+		19DEC08F21DFC89E00996233 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DEC08E21DFC89E00996233 /* ViewController.m */; };
+		19DEC09221DFC89E00996233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DEC09021DFC89E00996233 /* Main.storyboard */; };
+		19DEC09421DFC8A100996233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DEC09321DFC8A100996233 /* Assets.xcassets */; };
+		19DEC09721DFC8A100996233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DEC09521DFC8A100996233 /* LaunchScreen.storyboard */; };
+		19DEC09A21DFC8A100996233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DEC09921DFC8A100996233 /* main.m */; };
+		19DEC0A421DFC8A100996233 /* MixiViewControllerSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DEC0A321DFC8A100996233 /* MixiViewControllerSampleTests.m */; };
+		19DEC0AF21DFC8A100996233 /* MixiViewControllerSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DEC0AE21DFC8A100996233 /* MixiViewControllerSampleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19DEC0A021DFC8A100996233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DEC07F21DFC89E00996233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19DEC08621DFC89E00996233;
+			remoteInfo = MixiViewControllerSample;
+		};
+		19DEC0AB21DFC8A100996233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DEC07F21DFC89E00996233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19DEC08621DFC89E00996233;
+			remoteInfo = MixiViewControllerSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19DEC08721DFC89E00996233 /* MixiViewControllerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixiViewControllerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DEC08A21DFC89E00996233 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19DEC08B21DFC89E00996233 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19DEC08D21DFC89E00996233 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19DEC08E21DFC89E00996233 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19DEC09121DFC89E00996233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19DEC09321DFC8A100996233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19DEC09621DFC8A100996233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19DEC09821DFC8A100996233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19DEC09921DFC8A100996233 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19DEC09F21DFC8A100996233 /* MixiViewControllerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixiViewControllerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DEC0A321DFC8A100996233 /* MixiViewControllerSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiViewControllerSampleTests.m; sourceTree = "<group>"; };
+		19DEC0A521DFC8A100996233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19DEC0AA21DFC8A100996233 /* MixiViewControllerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixiViewControllerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DEC0AE21DFC8A100996233 /* MixiViewControllerSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiViewControllerSampleUITests.m; sourceTree = "<group>"; };
+		19DEC0B021DFC8A100996233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19DEC08421DFC89E00996233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DEC09C21DFC8A100996233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DEC0A721DFC8A100996233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19DEC07E21DFC89E00996233 = {
+			isa = PBXGroup;
+			children = (
+				19DEC08921DFC89E00996233 /* MixiViewControllerSample */,
+				19DEC0A221DFC8A100996233 /* MixiViewControllerSampleTests */,
+				19DEC0AD21DFC8A100996233 /* MixiViewControllerSampleUITests */,
+				19DEC08821DFC89E00996233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19DEC08821DFC89E00996233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19DEC08721DFC89E00996233 /* MixiViewControllerSample.app */,
+				19DEC09F21DFC8A100996233 /* MixiViewControllerSampleTests.xctest */,
+				19DEC0AA21DFC8A100996233 /* MixiViewControllerSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19DEC08921DFC89E00996233 /* MixiViewControllerSample */ = {
+			isa = PBXGroup;
+			children = (
+				19DEC08A21DFC89E00996233 /* AppDelegate.h */,
+				19DEC08B21DFC89E00996233 /* AppDelegate.m */,
+				19DEC08D21DFC89E00996233 /* ViewController.h */,
+				19DEC08E21DFC89E00996233 /* ViewController.m */,
+				19DEC09021DFC89E00996233 /* Main.storyboard */,
+				19DEC09321DFC8A100996233 /* Assets.xcassets */,
+				19DEC09521DFC8A100996233 /* LaunchScreen.storyboard */,
+				19DEC09821DFC8A100996233 /* Info.plist */,
+				19DEC09921DFC8A100996233 /* main.m */,
+			);
+			path = MixiViewControllerSample;
+			sourceTree = "<group>";
+		};
+		19DEC0A221DFC8A100996233 /* MixiViewControllerSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				19DEC0A321DFC8A100996233 /* MixiViewControllerSampleTests.m */,
+				19DEC0A521DFC8A100996233 /* Info.plist */,
+			);
+			path = MixiViewControllerSampleTests;
+			sourceTree = "<group>";
+		};
+		19DEC0AD21DFC8A100996233 /* MixiViewControllerSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19DEC0AE21DFC8A100996233 /* MixiViewControllerSampleUITests.m */,
+				19DEC0B021DFC8A100996233 /* Info.plist */,
+			);
+			path = MixiViewControllerSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19DEC08621DFC89E00996233 /* MixiViewControllerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19DEC0B321DFC8A100996233 /* Build configuration list for PBXNativeTarget "MixiViewControllerSample" */;
+			buildPhases = (
+				19DEC08321DFC89E00996233 /* Sources */,
+				19DEC08421DFC89E00996233 /* Frameworks */,
+				19DEC08521DFC89E00996233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixiViewControllerSample;
+			productName = MixiViewControllerSample;
+			productReference = 19DEC08721DFC89E00996233 /* MixiViewControllerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19DEC09E21DFC8A100996233 /* MixiViewControllerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19DEC0B621DFC8A100996233 /* Build configuration list for PBXNativeTarget "MixiViewControllerSampleTests" */;
+			buildPhases = (
+				19DEC09B21DFC8A100996233 /* Sources */,
+				19DEC09C21DFC8A100996233 /* Frameworks */,
+				19DEC09D21DFC8A100996233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19DEC0A121DFC8A100996233 /* PBXTargetDependency */,
+			);
+			name = MixiViewControllerSampleTests;
+			productName = MixiViewControllerSampleTests;
+			productReference = 19DEC09F21DFC8A100996233 /* MixiViewControllerSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19DEC0A921DFC8A100996233 /* MixiViewControllerSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19DEC0B921DFC8A100996233 /* Build configuration list for PBXNativeTarget "MixiViewControllerSampleUITests" */;
+			buildPhases = (
+				19DEC0A621DFC8A100996233 /* Sources */,
+				19DEC0A721DFC8A100996233 /* Frameworks */,
+				19DEC0A821DFC8A100996233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19DEC0AC21DFC8A100996233 /* PBXTargetDependency */,
+			);
+			name = MixiViewControllerSampleUITests;
+			productName = MixiViewControllerSampleUITests;
+			productReference = 19DEC0AA21DFC8A100996233 /* MixiViewControllerSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19DEC07F21DFC89E00996233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = JunNakajima;
+				TargetAttributes = {
+					19DEC08621DFC89E00996233 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					19DEC09E21DFC8A100996233 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 19DEC08621DFC89E00996233;
+					};
+					19DEC0A921DFC8A100996233 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 19DEC08621DFC89E00996233;
+					};
+				};
+			};
+			buildConfigurationList = 19DEC08221DFC89E00996233 /* Build configuration list for PBXProject "MixiViewControllerSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19DEC07E21DFC89E00996233;
+			productRefGroup = 19DEC08821DFC89E00996233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19DEC08621DFC89E00996233 /* MixiViewControllerSample */,
+				19DEC09E21DFC8A100996233 /* MixiViewControllerSampleTests */,
+				19DEC0A921DFC8A100996233 /* MixiViewControllerSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19DEC08521DFC89E00996233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DEC09721DFC8A100996233 /* LaunchScreen.storyboard in Resources */,
+				19DEC09421DFC8A100996233 /* Assets.xcassets in Resources */,
+				19DEC09221DFC89E00996233 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DEC09D21DFC8A100996233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DEC0A821DFC8A100996233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19DEC08321DFC89E00996233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DEC08F21DFC89E00996233 /* ViewController.m in Sources */,
+				19DEC09A21DFC8A100996233 /* main.m in Sources */,
+				19DEC08C21DFC89E00996233 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DEC09B21DFC8A100996233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DEC0A421DFC8A100996233 /* MixiViewControllerSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DEC0A621DFC8A100996233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DEC0AF21DFC8A100996233 /* MixiViewControllerSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19DEC0A121DFC8A100996233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19DEC08621DFC89E00996233 /* MixiViewControllerSample */;
+			targetProxy = 19DEC0A021DFC8A100996233 /* PBXContainerItemProxy */;
+		};
+		19DEC0AC21DFC8A100996233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19DEC08621DFC89E00996233 /* MixiViewControllerSample */;
+			targetProxy = 19DEC0AB21DFC8A100996233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19DEC09021DFC89E00996233 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19DEC09121DFC89E00996233 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19DEC09521DFC8A100996233 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19DEC09621DFC8A100996233 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19DEC0B121DFC8A100996233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19DEC0B221DFC8A100996233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19DEC0B421DFC8A100996233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MixiViewControllerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junnakajima.MixiViewControllerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19DEC0B521DFC8A100996233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MixiViewControllerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junnakajima.MixiViewControllerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19DEC0B721DFC8A100996233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MixiViewControllerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junnakajima.MixiViewControllerSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixiViewControllerSample.app/MixiViewControllerSample";
+			};
+			name = Debug;
+		};
+		19DEC0B821DFC8A100996233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MixiViewControllerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junnakajima.MixiViewControllerSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixiViewControllerSample.app/MixiViewControllerSample";
+			};
+			name = Release;
+		};
+		19DEC0BA21DFC8A100996233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MixiViewControllerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junnakajima.MixiViewControllerSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MixiViewControllerSample;
+			};
+			name = Debug;
+		};
+		19DEC0BB21DFC8A100996233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MixiViewControllerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junnakajima.MixiViewControllerSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MixiViewControllerSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19DEC08221DFC89E00996233 /* Build configuration list for PBXProject "MixiViewControllerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DEC0B121DFC8A100996233 /* Debug */,
+				19DEC0B221DFC8A100996233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19DEC0B321DFC8A100996233 /* Build configuration list for PBXNativeTarget "MixiViewControllerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DEC0B421DFC8A100996233 /* Debug */,
+				19DEC0B521DFC8A100996233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19DEC0B621DFC8A100996233 /* Build configuration list for PBXNativeTarget "MixiViewControllerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DEC0B721DFC8A100996233 /* Debug */,
+				19DEC0B821DFC8A100996233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19DEC0B921DFC8A100996233 /* Build configuration list for PBXNativeTarget "MixiViewControllerSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DEC0BA21DFC8A100996233 /* Debug */,
+				19DEC0BB21DFC8A100996233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19DEC07F21DFC89E00996233 /* Project object */;
+}
